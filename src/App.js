@@ -5,14 +5,9 @@ import BearLogo from "./ShuiOsoJLogo.png";
 
 const links = [
   {
-    name: "Instagram",
-    url: "https://www.instagram.com/shuiososound/",
-    icon: <FaInstagram />,
-  },
-  {
-    name: "Mixcloud",
-    url: "https://www.mixcloud.com/ShuiOso/",
-    icon: <FaMixcloud />,
+    name: "Main Website",
+    url: "https://shuioso.netlify.app",
+    icon: <FaGlobe />,
   },
   {
     name: "CashApp",
@@ -20,9 +15,19 @@ const links = [
     icon: <FaCashRegister />,
   },
   {
-    name: "Main Website",
-    url: "https://shuioso.netlify.app",
-    icon: <FaGlobe />,
+    name: "YouTube",
+    url: "https://www.youtube.com/@Shui-Oso",
+    icon: <FaYoutube />,
+  },
+  {
+    name: "Mixcloud",
+    url: "https://www.mixcloud.com/ShuiOso/",
+    icon: <FaMixcloud />,
+  },
+  {
+    name: "Instagram",
+    url: "https://www.instagram.com/shuiososound/",
+    icon: <FaInstagram />,
   },
   {
     name: "Email",
@@ -33,11 +38,6 @@ const links = [
     name: "Coding Resume",
     url: "https://jeffbozier.netlify.app",
     icon: <FaCode />,
-  },
-  {
-    name: "YouTube",
-    url: "https://www.youtube.com/@Shui-Oso",
-    icon: <FaYoutube />,
   },
   {
     name: "TikTok",
