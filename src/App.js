@@ -5,7 +5,7 @@ import BearLogo from "./ShuiOsoJLogo.png";
 
 const links = [
   {
-    name: "Main Website",
+    name: "Official Shui Oso Website",
     url: "https://shuioso.netlify.app",
     icon: <FaGlobe />,
   },
