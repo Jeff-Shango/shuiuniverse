@@ -70,7 +70,7 @@ const links = [
 const App = () => {
   return (
     <div className="container">
-      <img src={BearLogo} alt="Shui Oso Logo" className="logo" />
+    <img src={BearLogo} alt="Shui Oso Logo" className="logo" />
       <h1 className="title">Shui Oso</h1>
       <p className="subtitle">Tap in, explore, and vibe out.</p>
       <div className="link-list">
