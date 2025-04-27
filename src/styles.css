@@ -69,6 +69,52 @@ body {
     gap: 1rem;
     align-items: center;
   }
+
+  * 📬 Contact Section */
+.contact-section {
+  max-width: 400px;
+  margin: var(--space-md) auto;
+  padding: 0 var(--space-sm);
+  text-align: center;
+}
+
+.contact-section form {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
+}
+
+.contact-section input,
+.contact-section textarea {
+  width: 100%;
+  padding: var(--space-sm);
+  border: 1px solid #444;
+  background-color: var(--primary-color);
+  color: var(--accent-color);
+  font-size: 1rem;
+}
+
+.contact-section button {
+  background: linear-gradient(135deg, var(--secondary-color), var(--highlight-color));
+  color: var(--accent-color);
+  border: none;
+  padding: var(--space-sm) var(--space-md);
+  border-radius: 30px;
+  font-size: 2.5rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 12px rgba(255, 102, 0, 0.4);
+}
+
+.contact-section button:hover {
+  transform: scale(1.05);
+  background: linear-gradient(135deg, var(--highlight-color), var(--secondary-color));
+  box-shadow: 0 6px 20px rgba(255, 204, 0, 0.5);
+    text-shadow: 0 0 8px var(--accent-color);
+
+}
   
   /* Button has a soft red-green aura with a slight black undertone */
   .link-button {
@@ -98,6 +144,8 @@ body {
   .icon {
     font-size: 1.2rem;
   }
+
+  
   
   /* Mobile tweaks */
   @media screen and (max-width: 480px) {
@@ -123,4 +171,94 @@ body {
       transform: translateY(0);
     }
   }
+
+
+@media screen and (max-height: 500px) and (orientation: landscape) {
+  .contact-section {
+    max-width: 90vw;
+    padding: var(--space-md);
+    background-color: rgba(255, 255, 255, 0.1); /* subtle bright bg for contrast */
+    border-radius: 12px;
+  }
+
+  .contact-section input,
+  .contact-section textarea {
+    font-size: 1rem;
+    padding: 1rem;
+    background-color: rgba(0, 0, 0, 0.6); /* More contrast */
+    color: #fff;
+    border-radius: 6px;
+    border: 1px solid #999;
+  }
+
+  .contact-section h2 {
+    font-size: 2rem;
+    margin-bottom: var(--space-sm);
+  }
+
+  .form-group label {
+    font-size: 0.85rem;
+  }
+
+  .site-footer p {
+    font-size: 0.65rem;
+    opacity: 0.6;
+  }
+
+  .social-links a svg {
+    width: 36px;
+    height: 36px;
+  }
+
+  .social-links {
+    gap: 1.25rem;
+    margin-bottom: var(--space-md);
+  }
+}
+@media screen and (max-height: 500px) and (orientation: landscape) {
+  .contact-section {
+    max-width: 90vw;
+    padding: var(--space-md);
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+  }
+
+  .contact-section input,
+  .contact-section textarea {
+    font-size: 1rem;
+    padding: 1rem;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    border-radius: 6px;
+    border: 1px solid #999;
+  }
+
+  .contact-section h2 {
+    font-size: 2rem;
+    margin-bottom: var(--space-sm);
+  }
+
+  .form-group label {
+    font-size: 0.85rem;
+  }
+
+  .site-footer p {
+    font-size: 0.65rem;
+    opacity: 0.6;
+  }
+
+  .social-links a svg {
+    width: 76px;
+    height: 76px;
+  }
+
+  .social-links {
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-bottom: var(--space-md);
+  }
+
+}
+
   
